@@ -11,14 +11,14 @@ public class GameController {
 			
 			double moveX = 0, moveY = 0;
 			if (dx > 0) {
-				moveX = Game.MOVE_DIST;
+				moveX = Game.MOVE_DIST*4;
 			} else {
-				moveX = -Game.MOVE_DIST;
+				moveX = -Game.MOVE_DIST*4;
 			}
 			if (dy > 0) {
-				moveY = Game.MOVE_DIST;
+				moveY = Game.MOVE_DIST*4;
 			} else {
-				moveY = -Game.MOVE_DIST;
+				moveY = -Game.MOVE_DIST*4;
 			}
 			
 			game.setSquareDx(moveX);
